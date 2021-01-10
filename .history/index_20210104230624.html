@@ -14,7 +14,7 @@
         <!-- Menu + banniere -->
         <header id="header" class="header">
             <div class="topbar">
-                <h1><img src="iconeburger.svg" alt="Burger" width="25px"><a href="#">Burger Ramzi</a><img src="iconeburger.svg" alt="Burger" width="25px"></h1>
+                <h1><a href="#">Burger Ramzi</a></h1>
                 <nav class="menu">
                     <ul>
                         <li><a href="#accueil">Accueil</a></li>
@@ -36,12 +36,8 @@
             </div>
         </header>
         <!-- ingrédients et avis -->
-        <section id="ingrédients et avis" class="wrapper ingredients">
+        <section id="ingrédients et avis" class="wrapper ingrédients">
             <div class="ingrimag"><center><img src="ingredients.PNG" alt="ingrédients" /></center></div>
-            <div class="good">
-                <h2>Why are we so good?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo conséquat. Duis aute irure dolor in reprehenderit in voluptateit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sauf sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
             <div class="listingred">
                 <details>
                 <summary><h3 class="red">Voir ingrédients</h3></summary>
@@ -67,12 +63,20 @@
                   </ul>
                 </details>
             </div>
-
+            <div class="avis">
+                <ul>
+                    <li>Oscar Smith<br></li>
+                        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend purus ac commodo molestie.</P>
+                    <li>James Wilson<br></li>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend purus ac commodo molestie.</p>
+                    <li>Rian Johnson<br></li>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend purus ac commodo molestie.</p>
+            </div>
             <div class="produits">
                 <div class="cards">
                     <div class="card">
                         <i class="Super Supreme"></i>
-                        <img src="SupSup.png" alt="Pizza Super Supreme" width="200px">
+                        <img src="Piz_Sup-Supr.png" alt="Pizza Super Supreme" width="200px">
                         <h3>Super Supreme</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="prix">7.5$</p>
@@ -81,7 +85,7 @@
 
                     <div class="card">
                         <i class="Triple Crown"></i>
-                        <img src="TriCro.PNG" alt="Pizza Triple Crown" width="200px">
+                        <img src="Piz_Tri_Cro.PNG" alt="Pizza Triple Crown" width="200px">
                         <h3>Triple Crown</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="prix">10.9$</p>
@@ -90,7 +94,7 @@
 
                     <div class="card">
                         <i class="Greek Pizza"></i>
-                        <img src="GrePiz.PNG" alt="Pizza Greek" width="200px">
+                        <img src="Piz_Gre.PNG" alt="Pizza Greek" width="200px">
                         <h3>Greek Pizza</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="prix">8.6$</p>
@@ -100,7 +104,6 @@
                 </div>
             </div>
         </section>
-
         <section id="carte et contact" class="carteETcontact">
 
             <div class="carte">
@@ -116,17 +119,17 @@
                 <fieldset>
                     <legend>Vos coordonnées pour vous recontacter:</legend>
              
-                    <label for="nom">Nom</label>
+                    <label for="nom">Entrez votre nom</label>
                     <input type="text" name="nom" id="nom"><br>
              
-                    <label for="prenom">Prénom</label>
-                    <input type="text" name="prenom" id="prenom"><br>
+                    <label for="prenom">Entrez prénom</label>
+                    <input type="text" name="prenom" id="prenom">
               
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email"><br>
+                    <label for="email">Entrez votre email</label>
+                    <input type="email" name="email" id="email">
 
-                    <label for="phone">n° téléphone</label>
-                    <input type="tel" id="phone" name="phone"><br>
+                    <label for="phone">Entrez votre numéro de téléphone</label>
+                    <input type="tel" id="phone" name="phone">
              
                 </fieldset>
             </div>

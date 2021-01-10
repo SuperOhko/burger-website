@@ -165,10 +165,6 @@ table tbody td {
     width: 900px;
 }
 
-.imggood {
-    background-image: url('good.jpeg');
-}
-
 .good p {
     color: black;
 }

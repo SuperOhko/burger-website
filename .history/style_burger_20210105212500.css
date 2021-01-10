@@ -10,7 +10,7 @@
     --color-grey: #f5f5f5;
     --color-blue: #396bd8;
     --color-pink: #5e31b3;
-    --color-black: #0a0b0c;
+    --color-black: #383b43;
     --color-lightgrey: #cdced0;
     --color-red: #fc0707;
     --transition-duration: 0.5s;
@@ -34,6 +34,7 @@ address {
 
 table {
     height: 450px;
+    background-color: black;
     border-collapse: collapse;
     margin: 0 0 2em 0;
     float: right;
@@ -133,43 +134,17 @@ table tbody td {
 
 .produits {
     color: black;
-    float: left;
-    text-align: center;
-}
-
-.card {
-    float: left;
-    width: 350px;
-    margin: 50px 50px 50px 150px;
-    padding: 0px;
-    display: inline-block;
 }
 
 .ingrimag {
     background-size: cover;
     background-position: center center;
-    width: 100%;
     line-height: 1em;
     padding-top: 50px;
     padding-bottom: 50px;
-    float: left;
 }
 
 .linstingred {
-    color: black;
-}
-
-.good {
-    text-align: left;
-    color: solid black;
-    width: 900px;
-}
-
-.imggood {
-    background-image: url('good.jpeg');
-}
-
-.good p {
     color: black;
 }
 
@@ -394,8 +369,6 @@ table tbody td {
 
 .carteETcontact {
     display: inline-block;
-    background-color: grey;
-    width: 100%;
 }
 
 .carte {

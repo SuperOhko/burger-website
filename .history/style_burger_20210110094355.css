@@ -162,11 +162,7 @@ table tbody td {
 .good {
     text-align: left;
     color: solid black;
-    width: 900px;
-}
-
-.imggood {
-    background-image: url('good.jpeg');
+    
 }
 
 .good p {

@@ -14,7 +14,7 @@
         <!-- Menu + banniere -->
         <header id="header" class="header">
             <div class="topbar">
-                <h1><img src="iconeburger.svg" alt="Burger" width="25px"><a href="#">Burger Ramzi</a><img src="iconeburger.svg" alt="Burger" width="25px"></h1>
+                <h1><a href="#">Burger Ramzi</a></h1>
                 <nav class="menu">
                     <ul>
                         <li><a href="#accueil">Accueil</a></li>
@@ -36,12 +36,8 @@
             </div>
         </header>
         <!-- ingrédients et avis -->
-        <section id="ingrédients et avis" class="wrapper ingredients">
+        <section id="ingrédients et avis" class="wrapper ingrédients">
             <div class="ingrimag"><center><img src="ingredients.PNG" alt="ingrédients" /></center></div>
-            <div class="good">
-                <h2>Why are we so good?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercice ullamco laboris nisi ut aliquip ex ea commodo conséquat. Duis aute irure dolor in reprehenderit in voluptateit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sauf sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
             <div class="listingred">
                 <details>
                 <summary><h3 class="red">Voir ingrédients</h3></summary>
@@ -67,12 +63,20 @@
                   </ul>
                 </details>
             </div>
-
+            <div class="avis">
+                <ul>
+                    <li>Oscar Smith<br></li>
+                        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend purus ac commodo molestie.</P>
+                    <li>James Wilson<br></li>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend purus ac commodo molestie.</p>
+                    <li>Rian Johnson<br></li>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eleifend purus ac commodo molestie.</p>
+            </div>
             <div class="produits">
                 <div class="cards">
                     <div class="card">
                         <i class="Super Supreme"></i>
-                        <img src="SupSup.png" alt="Pizza Super Supreme" width="200px">
+                        <img src="Piz_Sup-Supr.png" alt="Pizza Super Supreme" width="200px">
                         <h3>Super Supreme</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="prix">7.5$</p>
@@ -81,7 +85,7 @@
 
                     <div class="card">
                         <i class="Triple Crown"></i>
-                        <img src="TriCro.PNG" alt="Pizza Triple Crown" width="200px">
+                        <img src="Piz_Tri_Cro.PNG" alt="Pizza Triple Crown" width="200px">
                         <h3>Triple Crown</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="prix">10.9$</p>
@@ -90,7 +94,7 @@
 
                     <div class="card">
                         <i class="Greek Pizza"></i>
-                        <img src="GrePiz.PNG" alt="Pizza Greek" width="200px">
+                        <img src="Piz_Gre.PNG" alt="Pizza Greek" width="200px">
                         <h3>Greek Pizza</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p class="prix">8.6$</p>
@@ -100,33 +104,32 @@
                 </div>
             </div>
         </section>
-
         <section id="carte et contact" class="carteETcontact">
 
             <div class="carte">
                 <h2>Plan d'acces</h2>
                 <address>34 Rue de la Tourraque, Antibes 06600</address>
                 <address><a href="tel:+33777777777">07 77 77 77 77</a></address>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.3222314832415!2d7.124332215755171!3d43.57900407912394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd57072b4c2a5%3A0xa8df0ff3ed51b386!2s34%20Rue%20de%20la%20Tourraque%2C%2006600%20Antibes!5e0!3m2!1sfr!2sfr!4v1609704702300!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2890.3222314832415!2d7.124332215755171!3d43.57900407912394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd57072b4c2a5%3A0xa8df0ff3ed51b386!2s34%20Rue%20de%20la%20Tourraque%2C%2006600%20Antibes!5e0!3m2!1sfr!2sfr!4v1609704702300!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
 
             <div class="table">
                 <form method="post" action="traitement.php">
  
                 <fieldset>
-                    <legend>Vos coordonnées pour vous recontacter:</legend>
+                    <legend>Vos coordonnées</legend>
              
-                    <label for="nom">Nom</label>
-                    <input type="text" name="nom" id="nom"><br>
+                    <label for="nom">Entrez votre nom</label>
+                    <input type="text" name="nom" id="nom">
              
-                    <label for="prenom">Prénom</label>
-                    <input type="text" name="prenom" id="prenom"><br>
+                    <label for="prenom">Entrez prénom</label>
+                    <input type="text" name="prenom" id="prenom">
               
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email"><br>
+                    <label for="email">Entrez votre email</label>
+                    <input type="email" name="email" id="email">
 
-                    <label for="phone">n° téléphone</label>
-                    <input type="tel" id="phone" name="phone"><br>
+                    <label for="phone">Entrez votre numéro de téléphone</label>
+                    <input type="tel" id="phone" name="phone">
              
                 </fieldset>
             </div>
